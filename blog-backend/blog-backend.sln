@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog-backend", "blog-backend\blog-backend.csproj", "{B81CF754-8857-4F80-B26F-745D50012301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81CF754-8857-4F80-B26F-745D50012301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81CF754-8857-4F80-B26F-745D50012301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81CF754-8857-4F80-B26F-745D50012301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81CF754-8857-4F80-B26F-745D50012301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
