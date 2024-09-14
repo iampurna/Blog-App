@@ -1,4 +1,5 @@
 using blog_backend.Data;
+using blog_backend.Dto;
 using blog_backend.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -30,15 +31,24 @@ namespace blog_backend.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> AddBlog([FromBody] Blog model)
+        public async Task<ActionResult> AddBlog([FromBody] BlogDto model)
         {
-            await _blogRepository.AddAsync(model);
+            var blog = new Blog()
+            {
+                CategoryId = model.CategoryId,
+                IsFeatured = model.IsFeatured,
+                Content = model.Content,
+                Title = model.Content,
+                Description = model.Description,
+                Image = model.Image
+            };
+            await _blogRepository.AddAsync(blog);
             await _blogRepository.SaveChangesAsync();
             return Ok(model);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateBlog([FromRoute] int id, [FromBody] Blog model)
+        public async Task<ActionResult> UpdateBlog([FromRoute] int id, [FromBody] BlogDto model)
         {
             var blog = await _blogRepository.GetById(id);
             blog.Description = model.Description;
@@ -50,11 +60,32 @@ namespace blog_backend.Controllers
             await _blogRepository.SaveChangesAsync();
             return Ok(model);
         }
+
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteBlog([FromRoute] int id){
-             await _blogRepository.DeleteAsync(id);
-            return Ok();
+        public async Task<ActionResult> DeleteBlog([FromRoute] int id)
+        {
+            try
+            {
+                var blog = await _blogRepository.GetById(id);
+                if (blog == null)
+                {
+                    return NotFound();
+                }
+
+                await _blogRepository.DeleteAsync(id);
+                await _blogRepository.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500,
+                    "An error occurred while deleting the blog."); // Return a 500 error for server issues
+            }
         }
+        // public async Task<ActionResult> DeleteBlog([FromRoute] int id){
+        //      await _blogRepository.DeleteAsync(id);
+        //     return Ok();
+        // }
         
         [HttpGet("featured")]
         public async Task<ActionResult> GetBlogFeatureList()

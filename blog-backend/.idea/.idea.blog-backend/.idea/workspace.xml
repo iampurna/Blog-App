@@ -8,43 +8,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="880df4aa-30bb-4518-bb0e-b9733e8a470f" name="Changes" comment="" />
+    <list default="true" id="880df4aa-30bb-4518-bb0e-b9733e8a470f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.blog-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.blog-backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/ref/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/ref/blog-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/refint/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/refint/blog-backend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iampurna&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iampurna/Blog-App.git&quot;,
+    &quot;accountId&quot;: &quot;fe34ce27-f342-4726-a82a-71827780dc03&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2lvCRex0y1Jyd1SQoAoooqAQvkw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.blog-backend: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.blog-backend: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/purnalungeli/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/purnalungeli/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/purnalungeli/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/purnalungeli/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/purnalungeli/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/purnalungeli/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.blog-backend: http">
     <configuration name="blog-backend: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/blog-backend/blog-backend.csproj" />
@@ -85,13 +116,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726051157069</updated>
-      <workItem from="1726051158330" duration="6642000" />
+      <workItem from="1726051158330" duration="13333000" />
+      <workItem from="1726204490221" duration="2634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
