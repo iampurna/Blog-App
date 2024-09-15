@@ -9,18 +9,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880df4aa-30bb-4518-bb0e-b9733e8a470f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.blog-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.blog-backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/bin/Debug/net8.0/blog-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/blog-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/ref/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/ref/blog-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/refint/blog-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/Debug/net8.0/refint/blog-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/blog-backend/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +31,9 @@
     &quot;accountId&quot;: &quot;fe34ce27-f342-4726-a82a-71827780dc03&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/purnalungeli/Desktop/BlogsApp/blog-backend/blog-backend/obj/Debug/net8.0/blog-backend.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -118,7 +109,17 @@
       <updated>1726051157069</updated>
       <workItem from="1726051158330" duration="13333000" />
       <workItem from="1726204490221" duration="2634000" />
+      <workItem from="1726296761158" duration="6637000" />
     </task>
+    <task id="LOCAL-00001" summary="modify createBlog">
+      <option name="closed" value="true" />
+      <created>1726314589700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726314589700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +129,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="modify createBlog" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify createBlog" />
   </component>
 </project>
